@@ -13,7 +13,7 @@ Welcome to my **Machine Learning** homework repository. This repository contains
 Directory Structure
 The repository is organized by assignment (Homework) or by week:
 
-text
+```text
 ├── HW1_Linear_Regression/
 │   ├── data/
 │   ├── linear_regression.ipynb
@@ -24,6 +24,7 @@ text
 │   ├── ...
 ├── README.md
 └── requirements.txt
+```
 🛠 Tech StackThis project uses Python and standard data science libraries:NumPy & Pandas: Data manipulation and analysis.Matplotlib & Seaborn: Data visualization.Scikit-Learn: Implementation of basic ML algorithms.TensorFlow / PyTorch: (If applicable) Deep Learning models.Jupyter Notebook: Interactive coding environment. Assignment List#AssignmentKey TopicsStatus01Homework 1Linear Regression, Gradient Descent Completed02Homework 2Logistic Regression, Regularization Completed03Homework 3SVM, Kernels Completed04Homework 4Clustering (K-Means), PCA In Progress05Final ProjectImage Classification with CNNsUpcoming Installation & UsageTo run the notebooks locally, please follow these steps:Clone this repository:Bashgit clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
 Install required packages:Bashpip install -r requirements.txt
 Launch Jupyter Notebook:Bashjupyter notebook
