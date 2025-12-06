@@ -1,8 +1,11 @@
-Machine Learning Assignments
+# Machine Learning Assignments
 
-Welcome to my **Machine Learning** homework repository. This repository contains source code, reports, and datasets for the assignments in the Machine Learning course at Hanoi University of Science - Vietnam National University.
+Welcome to my **Machine Learning** homework repository. This repository contains source code, reports, and datasets for the assignments in the **Machine Learning** course at **Hanoi University of Science - Vietnam National University (HUS - VNU)**.
 
- Table of Contents
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+## Table of Contents
 - [Introduction](#introduction)
 - [Directory Structure](#directory-structure)
 - [Tech Stack](#tech-stack)
@@ -10,8 +13,8 @@ Welcome to my **Machine Learning** homework repository. This repository contains
 - [Installation & Usage](#installation--usage)
 - [Author](#author)
 
-Directory Structure
-The repository is organized by assignment (Homework) or by week:
+## Directory Structure
+The repository is organized by assignment (Homework):
 
 ```text
 ├── HW1_Linear_Regression/
@@ -25,49 +28,43 @@ The repository is organized by assignment (Homework) or by week:
 ├── README.md
 └── requirements.txt
 ```
-🛠 Tech StackThis project uses Python and standard data science libraries:NumPy & Pandas: Data manipulation and analysis.Matplotlib & Seaborn: Data visualization.Scikit-Learn: Implementation of basic ML algorithms.TensorFlow / PyTorch: (If applicable) Deep Learning models.Jupyter Notebook: Interactive coding environment. Assignment List#AssignmentKey TopicsStatus01Homework 1Linear Regression, Gradient Descent Completed02Homework 2Logistic Regression, Regularization Completed03Homework 3SVM, Kernels Completed04Homework 4Clustering (K-Means), PCA In Progress05Final ProjectImage Classification with CNNsUpcoming Installation & UsageTo run the notebooks locally, please follow these steps:Clone this repository:Bashgit clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
-Install required packages:Bashpip install -r requirements.txt
-Launch Jupyter Notebook:Bashjupyter notebook
-👨‍💻 AuthorName: [Your Name]Student ID: [Your ID]Email: [Your Email]Note: Please do not copy this code for academic dishonesty purposes.
----
+# Tech Stack
+This project uses Python and standard data science libraries:
 
-### Option 2: Professional & Portfolio Style
-Use this version if you want to showcase these assignments to recruiters on your GitHub profile. It focuses more on results and skills.
+NumPy & Pandas: Data manipulation and analysis.
 
-markdown
-# Machine Learning Portfolio 🧠
+Matplotlib & Seaborn: Data visualization.
 
-A collection of machine learning algorithms and projects implemented from scratch and using Scikit-Learn.
+Scikit-Learn: Implementation of basic ML algorithms.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
+Jupyter Notebook: Interactive coding environment.
 
-## Overview
-This repository serves as a learning log for my Machine Learning journey. It covers various supervised and unsupervised learning techniques, including mathematical derivations and code implementations.
+## 🚀 Installation & Usage
 
-## Key Highlights
+To run the notebooks locally, please follow these steps:
 
-### 1. Linear Regression (Predicting Housing Prices)
-* **Goal:** Predict housing prices based on features like area and location.
-* **Techniques:** Gradient Descent, Normal Equation.
-* **Result:** Achieved an RMSE of X.XX.
-* [Link to Notebook](./HW1_Linear_Regression/linear_regression.ipynb)
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/tasdus-117/MachineLearningHW.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd MachineLearningHW
+   ```
+3. **Install required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+jupyter notebook
+# Author
+Name: Nguyễn Chí Hoàng Tú
 
-### 2. Digit Recognition (MNIST)
-* **Goal:** Classify handwritten digits (0-9).
-* **Techniques:** Neural Networks (MLP), Backpropagation.
-* **Result:** 98% accuracy on the test set.
-* [Link to Notebook](./HW3_Neural_Networks/mnist_nn.ipynb)
+Student ID: 23001947
 
-## Libraries Used
-* numpy
-* pandas
-* matplotlib
-* scikit-learn
-* scipy
+Email: hoangtu11705@gmail.com
 
-## Contributing
-Feel free to open issues or submit pull requests if you find any bugs or have suggestions for optimization.
-
-## License
-This project is licensed under the MIT License.
+GitHub: tasdus-117
