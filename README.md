@@ -17,14 +17,16 @@ Welcome to my **Machine Learning** homework repository. This repository contains
 The repository is organized by assignment (Homework):
 
 ```text
-├── HW1_Linear_Regression/
-│   ├── data/
-│   ├── linear_regression.ipynb
-│   └── report.pdf
-├── HW2_Logistic_Regression/
-│   ├── ...
-├── HW3_Neural_Networks/
-│   ├── ...
+├── Week1_NaiveBayes/
+├── Week2_NaiveBayes/
+├── Week3_LinearRegression/
+├── 23001947_NguyenChiHoangTu_Clustering.ipynb
+├── 23001947_NguyenChiHoangTu_K_NN_MultinomialLogisticRegression.ipynb
+├── 23001947_NguyenChiHoangTu_LDA.ipynb
+├── 23001947_NguyenChiHoangTu_LogisticRegression.ipynb
+├── 23001947_NguyenChiHoangTu_MLP.ipynb
+├── 23001947_NguyenChiHoangTu_PCA.ipynb
+├── 23001947_NguyenChiHoangTu_Perceptron.ipynb
 ├── README.md
 └── requirements.txt
 ```
